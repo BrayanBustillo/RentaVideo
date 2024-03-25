@@ -1,4 +1,5 @@
-﻿using Negocios;
+﻿using Datos.BaseDatos.Modelos;
+using Negocios;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;

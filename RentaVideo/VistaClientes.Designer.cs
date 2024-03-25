@@ -51,7 +51,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Dubai", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(329, 9);
+            this.label7.Location = new System.Drawing.Point(218, 9);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(113, 45);
             this.label7.TabIndex = 33;
@@ -61,17 +61,17 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Dubai", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(399, 107);
+            this.label6.Location = new System.Drawing.Point(296, 75);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(75, 27);
+            this.label6.Size = new System.Drawing.Size(120, 27);
             this.label6.TabIndex = 32;
-            this.label6.Text = "F. Ingreso";
+            this.label6.Text = "Fecha de Ingreso";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Dubai", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(409, 73);
+            this.label3.Location = new System.Drawing.Point(32, 135);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(65, 27);
             this.label3.TabIndex = 29;
@@ -81,7 +81,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Dubai", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(67, 107);
+            this.label2.Location = new System.Drawing.Point(33, 105);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(64, 27);
             this.label2.TabIndex = 28;
@@ -91,7 +91,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Dubai", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(53, 75);
+            this.label1.Location = new System.Drawing.Point(18, 73);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(78, 27);
             this.label1.TabIndex = 27;
@@ -101,7 +101,7 @@
             // 
             this.chkEstado.AutoSize = true;
             this.chkEstado.Font = new System.Drawing.Font("Dubai", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkEstado.Location = new System.Drawing.Point(617, 136);
+            this.chkEstado.Location = new System.Drawing.Point(448, 138);
             this.chkEstado.Name = "chkEstado";
             this.chkEstado.Size = new System.Drawing.Size(76, 31);
             this.chkEstado.TabIndex = 26;
@@ -111,32 +111,32 @@
             // txtApellido
             // 
             this.txtApellido.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtApellido.Location = new System.Drawing.Point(480, 75);
+            this.txtApellido.Location = new System.Drawing.Point(102, 138);
             this.txtApellido.Name = "txtApellido";
-            this.txtApellido.Size = new System.Drawing.Size(213, 26);
+            this.txtApellido.Size = new System.Drawing.Size(170, 26);
             this.txtApellido.TabIndex = 22;
             // 
             // txtNombre
             // 
             this.txtNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombre.Location = new System.Drawing.Point(137, 108);
+            this.txtNombre.Location = new System.Drawing.Point(102, 106);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(209, 26);
+            this.txtNombre.Size = new System.Drawing.Size(170, 26);
             this.txtNombre.TabIndex = 21;
             // 
             // txtID
             // 
             this.txtID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtID.Location = new System.Drawing.Point(137, 76);
+            this.txtID.Location = new System.Drawing.Point(102, 74);
             this.txtID.Name = "txtID";
             this.txtID.ReadOnly = true;
-            this.txtID.Size = new System.Drawing.Size(209, 26);
+            this.txtID.Size = new System.Drawing.Size(170, 26);
             this.txtID.TabIndex = 20;
             // 
             // btnEliminar
             // 
             this.btnEliminar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.btnEliminar.Location = new System.Drawing.Point(609, 204);
+            this.btnEliminar.Location = new System.Drawing.Point(382, 204);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(75, 30);
             this.btnEliminar.TabIndex = 19;
@@ -147,7 +147,7 @@
             // btnGuardar
             // 
             this.btnGuardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.btnGuardar.Location = new System.Drawing.Point(690, 204);
+            this.btnGuardar.Location = new System.Drawing.Point(463, 204);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(75, 30);
             this.btnGuardar.TabIndex = 18;
@@ -160,16 +160,16 @@
             this.DGVDatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DGVDatos.Location = new System.Drawing.Point(11, 240);
             this.DGVDatos.Name = "DGVDatos";
-            this.DGVDatos.Size = new System.Drawing.Size(754, 198);
+            this.DGVDatos.Size = new System.Drawing.Size(527, 198);
             this.DGVDatos.TabIndex = 17;
             this.DGVDatos.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGVDatos_CellDoubleClick);
             // 
             // dtpFechaIngreso
             // 
             this.dtpFechaIngreso.Enabled = false;
-            this.dtpFechaIngreso.Location = new System.Drawing.Point(480, 110);
+            this.dtpFechaIngreso.Location = new System.Drawing.Point(301, 105);
             this.dtpFechaIngreso.Name = "dtpFechaIngreso";
-            this.dtpFechaIngreso.Size = new System.Drawing.Size(213, 20);
+            this.dtpFechaIngreso.Size = new System.Drawing.Size(222, 20);
             this.dtpFechaIngreso.TabIndex = 34;
             // 
             // errorProvider1
@@ -180,7 +180,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(777, 450);
+            this.ClientSize = new System.Drawing.Size(550, 450);
             this.Controls.Add(this.dtpFechaIngreso);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
