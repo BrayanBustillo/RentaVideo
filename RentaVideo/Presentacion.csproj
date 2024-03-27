@@ -100,6 +100,9 @@
     <EmbeddedResource Include="VistaPeliculas.resx">
       <DependentUpon>VistaPeliculas.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="VistaRenta.resx">
+      <DependentUpon>VistaRenta.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

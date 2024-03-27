@@ -16,7 +16,7 @@ namespace RentaVideo
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new VistaClientes());
+            Application.Run(new Menu());
         }
     }
 }

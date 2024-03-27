@@ -3,6 +3,7 @@ using Datos.Core;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -43,7 +44,6 @@ namespace Datos
                 {
                     ActualizarInDB.Nombres = guardar.Nombres;
                     ActualizarInDB.Aepllidos = guardar.Aepllidos;
-                    ActualizarInDB.FechaIngreso = guardar.FechaIngreso;
                     ActualizarInDB.Estado = guardar.Estado;
 
                     _unitOfWork.Repository<Clientes>().Editar(guardar);

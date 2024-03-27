@@ -61,6 +61,7 @@
     <Compile Include="Core\UnitOfWork.cs" />
     <Compile Include="DClientes.cs" />
     <Compile Include="DPeliculas.cs" />
+    <Compile Include="DRentas.cs" />
     <Compile Include="Migrations\202403250307303_AddTablaPeliculas.cs" />
     <Compile Include="Migrations\202403250307303_AddTablaPeliculas.designer.cs">
       <DependentUpon>202403250307303_AddTablaPeliculas.cs</DependentUpon>
@@ -72,6 +73,10 @@
     <Compile Include="Migrations\202403250324101_AddTablaRenta.cs" />
     <Compile Include="Migrations\202403250324101_AddTablaRenta.designer.cs">
       <DependentUpon>202403250324101_AddTablaRenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202403250742585_CambiosFechaRetornoFormato.cs" />
+    <Compile Include="Migrations\202403250742585_CambiosFechaRetornoFormato.designer.cs">
+      <DependentUpon>202403250742585_CambiosFechaRetornoFormato.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -89,6 +94,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202403250324101_AddTablaRenta.resx">
       <DependentUpon>202403250324101_AddTablaRenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202403250742585_CambiosFechaRetornoFormato.resx">
+      <DependentUpon>202403250742585_CambiosFechaRetornoFormato.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

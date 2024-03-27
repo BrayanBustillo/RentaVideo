@@ -17,8 +17,14 @@ namespace Datos.BaseDatos.Modelos
         public int PeliculaId { get; set; }
 
         public DateTime FechaRenta { get; set; }
+
+        [DataType(DataType.Date)]
         public DateTime FechaRetorno{ get; set; }
+
+        [Required]
         public int Cantidad { get; set; }
+
+        [Required]
         public decimal PrecioRenta { get; set; }
 
         //-------------------------------------
